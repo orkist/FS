@@ -14,11 +14,11 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/MyCss.css" rel="stylesheet">
+	<link href="css/bootstrap-slider.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
-
-
+	
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -38,53 +38,69 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">FitnessSnob</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
-        </div><!--/.navbar-collapse -->
+        </div>        
       </div>
     </nav>
+	<hr>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    
-	<div class="jumbotron">	
-      <div class="container"><br>		
-        <h2 class="headerFont">Your fitness class should fit <strong><i>you</i></strong>.</h2>        
+    <!-- Main questions -->
+  
+	<br>
+	<br>
+	<div class="alert alert-questions text-center vcenter" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <h4 class="vcenter"><strong>Welcome to FitnessSnob!</strong> You are just a few questions away from finding the perfect class!</h4>
+</div>
+
+<div><h3 style="margin-left:50px">Profile Completion: 75%</h3>
+<div class="progress" style="margin-left:50px">
+  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+    <span class="sr-only">95% Complete</span>
+  </div>
+</div>
+</div>
+<h2 class="profileheading" style="margin-left:50px">Let's talk about your instructor preferences...</h2>
+
+<div class="panel panel-questions">
+  <div class="panel-heading">
+    <h3 class="panel-title surveyfont">Do you prefer male or female instructors?</h3>
+  </div>
+  <div class="panel-body">
+	<ul class="surveyfont"> 
+		<div class="col-md-4">
+			<input type="radio" name="group1" aria-label="..."> Male<br>
+		</div>
+		<div class="col-md-4">
+			<input type="radio" name="group1" aria-label="..."> Female<br>
+		</div>
+		<div class="col-md-4">
+			<input type="radio" name="group1" aria-label="..."> Doesn't matter<br>				
+		</div>
+	</ul>      
     </div>
-	</div>
-	<div class="container">	
-        <h3 class="text-center"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
-          Find workouts that fit your personality</h3>		
-      </div>
-	  <br>
+</div>
+<div class="newcontainer">
+<div class="panel panel-questions">
+  <div class="panel-heading">
+    <h3 class="panel-title surveyfont">How "intense" do you want your instructor to be?</h3>
+  </div>
+  <div class="panel-body">
+	<ul class="surveyfont">	
+			<input type="radio" name="group1" aria-label="..."> Low intensity - I just want to work out at my own pace<br>	
+			<input type="radio" name="group1" aria-label="..."> Moderate intensity - Sometimes I need a little motivation<br>
+			<input type="radio" name="group1" aria-label="..."> High intesnity - I want to feel like I'm in Bootcamp!<br>				
+		
+	</ul>  
+  </div>	
+</div>
+<a class="btn mybtn btn-default pull-right" href="./Profile3.html">Next</a>
+</div>
+<br>
 
-      <!-- Example row of columns -->
-	  <div>
-	    <div class="row">
-			<div class="col-md-4 im-centered">				
-				<h2 class="text-center">Sign up for free!				  
-          <br><p><a class="btn btn-default" href="./Profile1.html" role="button">Get Started! &raquo;</a></p>
-			</div></h2>           
-        <div class="col-md-4">
-          <h2 class="text-center">Try it out as a guest!         
-          <br><p><a class="btn btn-default" href="./Profile1.html" role="button">Enter as guest &raquo;</a></p>
-        </div></h2>            
-      </div>
-	 </div>
-
-      <hr>
-	
-<div>
+<hr>
+<div class="container">
       <footer>
-        <p>&copy; 2015 Company, Inc.</p>
+        <p>&copy; 2016 FitnessSnob, Inc.</p>
       </footer>
 </div> <!-- /container -->
 

@@ -1,0 +1,86 @@
+.alert-questions {
+  background-color: rgba(44, 62, 80, 1);
+  border-color: #C0C0C0;
+  color: #ffffff;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.vcenter {
+   
+    vertical-align: middle;   
+}
+
+.alert h4
+{
+	
+}
+
+.panel-questions{
+	margin-bottom: 21px;
+  background-color:  rgba(236, 240, 241, 1);
+  border-color: #18bc9c;
+  color: rgba(44, 62, 80, 1);
+  border: 1px solid transparent;  
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+	  margin-left: 50px;
+		margin-right: 50px;
+}
+
+.im-centered { margin-left: 220px;}
+
+.profileheading
+{
+	color: #5f9ea0;
+}
+
+.surveyfont
+{
+	font-size: 22px;
+	
+}
+
+.progress
+{
+margin-left: 50px;
+margin-right: 50px;
+background-color:  #C0C0C0;
+
+}
+.headerFont
+{
+color: #ffffff;
+
+}
+.mybtn 
+{ 
+margin-right: 50px; 
+background-color: rgba(24, 188, 156, 1);
+}
+b{	
+background-color: rgba(24, 188, 156, 1);
+}
+
+.progress-bar
+{
+background-color: rgba(24, 188, 156, 1);
+}
+.slider-selection {
+	background: #BABABA;
+	background-image: #2c3e50;
+}
+.input-group {
+	width:30%;
+}
+
+.mywell {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;  
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
